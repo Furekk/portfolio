@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Furek | Lua Scripter For-Hire</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<header class="hero">
+
+<h1>
+Furek
+</h1>
+
+<h2>
+Lua Scripter For-Hire
+</h2>
+
+<p>
+Roblox systems, optimization, and clean architecture.
+</p>
+
+
+</header>
+
+
+
+<section class="about">
+
+<h2>
+About Me
+</h2>
+
+<p>
+I'm Furek and i've been scripting for the past 4 years.
+I make quality systems and not ones that are entirely spaghetti code.
+</p>
+
+</section>
+
+
+
+
+
+<section id="skills">
+
+
+<h2 class="section-title">
+What I Do
+</h2>
+
+
+
+<div class="cards">
+
+
+
+<div class="card">
+
+<h3>
+Optimization
+</h3>
+
+<p>
+Optimizing scripts, reducing unnecessary workload,
+and making games run smoother.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Systems
+</h3>
+
+<p>
+Rounds, quests, lobbies, tools, shops,
+inventories, progression systems and more.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+Clean Script Architecture
+</h3>
+
+<p>
+Modular and readable code using ModuleScripts
+built for future expansion.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+UI Logic & Animations
+</h3>
+
+<p>
+Interactive UI systems, animations,
+menus and responsive interfaces.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+DataStores
+</h3>
+
+<p>
+Secure player data saving systems,
+validation and reliable storage.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+Raycasting & Hit Detection
+</h3>
+
+<p>
+Combat systems, projectiles,
+custom hitboxes and validation.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section id="work">
+
+
+<h2 class="section-title">
+Past Work
+</h2>
+
+
+
+<div class="projects">
+
+
+
+<div class="project">
+
+<div class="video">
+
+VIDEO
+
+</div>
+
+
+<h3>
+Combat Framework
+</h3>
+
+
+<span>
+Combat System
+</span>
+
+
+</div>
+
+
+
+
+
+<div class="project">
+
+<div class="video">
+
+VIDEO
+
+</div>
+
+
+<h3>
+Quest System
+</h3>
+
+
+<span>
+Progression System
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="project">
+
+<div class="video">
+
+VIDEO
+
+</div>
+
+
+<h3>
+Round System
+</h3>
+
+
+<span>
+Match Flow
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="project">
+
+<div class="video">
+
+VIDEO
+
+</div>
+
+
+<h3>
+Inventory System
+</h3>
+
+
+<span>
+Item Management
+</span>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<div class="code-gallery">
+
+<img src="code1.png">
+<img src="code2.png">
+<img src="code3.png">
+<img src="code4.png">
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section id="details">
+
+
+<h2 class="section-title">
+Details
+</h2>
+
+
+
+<div class="cards">
+
+
+
+<div class="card">
+
+<h3>
+Pricing
+</h3>
+
+<p>
+Projects are priced in Robux.
+
+USD values are calculated using Roblox DevEx rates.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+Payment
+</h3>
+
+<p>
+Robux payments.
+
+Payment terms are decided before development.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+Discord
+</h3>
+
+<p>
+YOUR DISCORD HERE
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="working">
+
+
+<h3>
+Working With Me
+</h3>
+
+
+<ul>
+
+<li>
+Clear communication throughout development.
+</li>
+
+
+<li>
+Clean readable code without spaghetti.
+</li>
+
+
+<li>
+Fast delivery while keeping quality.
+</li>
+
+
+<li>
+Fixing bugs before completion.
+</li>
+
+
+<li>
+Explaining systems when needed.
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+</section>
+
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:
+    opacity .7s ease,
+    transform .7s ease;
+
+}
+
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
