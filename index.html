@@ -10,6 +10,7 @@
 
 <link rel="stylesheet" href="style.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 </head>
@@ -20,7 +21,7 @@
 <header class="hero">
 
 <h1>
-Furek
+Hey, I'm Furek
 </h1>
 
 <h2>
@@ -28,30 +29,11 @@ Lua Scripter For-Hire
 </h2>
 
 <p>
-Roblox systems, optimization, and clean architecture.
+I've been scripting for the past 4 years. I make quality systems and not ones that are entirely spaghetti code.
 </p>
 
 
 </header>
-
-
-
-<section class="about">
-
-<h2>
-About Me
-</h2>
-
-<p>
-I'm Furek and i've been scripting for the past 4 years.
-I make quality systems and not ones that are entirely spaghetti code.
-</p>
-
-</section>
-
-
-
-
 
 <section id="skills">
 
@@ -181,23 +163,76 @@ Past Work
 
 <div class="projects">
 
-
-
 <div class="project">
-
-<div class="video">
-
-<iframe src="https://www.youtube.com/embed/FUVkislGTJE"frameborder="0" allowfullscreen></iframe>
+	<div class="video">
+		<iframe src="https://www.youtube.com/embed/BvARcT__ixo"frameborder="0" allowfullscreen></iframe>
+	</div>
+	<h3>
+		Megabonk Inspired Project
+	</h3>
+	<span>
+		I've tried to recreate Megabonk in Roblox while adding my own ideas.
+	</span>
 </div>
 
-<h3>
-Inventory System
-</h3>
+<div class="project">
+	<div class="video">
+		<iframe src="https://www.youtube.com/embed/RkeZoLtvnOc"frameborder="0" allowfullscreen></iframe>
+	</div>
+	<h3>
+		Puzzle Cleaning Game
+	</h3>
+	<span>
+		A basic demo with working shop, powerups and puzzle generation.
+	</span>
+</div>
 
-<span>
-Item Management
-</span>
+<div class="project">
+	<div class="video">
+		<iframe src="https://www.youtube.com/embed/FUVkislGTJE"frameborder="0" allowfullscreen></iframe>
+	</div>
+	<h3>
+		Plot Management
+	</h3>
+	<span>
+		Placing, Rotating, Picking up droppers, etc.
+	</span>
+</div>
 
+<div class="project">
+	<div class="video">
+		<iframe src="https://www.youtube.com/embed/tjbd7smNorQ"frameborder="0" allowfullscreen></iframe>
+	</div>
+	<h3>
+		Weapon Inventory Management
+	</h3>
+	<span>
+		Inspecting weapons, upgrading and equipping it.
+	</span>
+</div>
+
+<div class="project">
+	<div class="video">
+		<iframe src="https://www.youtube.com/embed/o3dZu2FceyQ"frameborder="0" allowfullscreen></iframe>
+	</div>
+	<h3>
+		RNG Game
+	</h3>
+	<span>
+		All kinds of systems that an RNG game would need.
+	</span>
+</div>
+
+<div class="project">
+	<div class="video">
+		<iframe src="https://www.youtube.com/embed/rkj2GPf4AyY"frameborder="0" allowfullscreen></iframe>
+	</div>
+	<h3>
+		Crafting System
+	</h3>
+	<span>
+		Modular and polished Crafting System with notifications, etc.
+	</span>
 </div>
 
 
@@ -286,12 +321,44 @@ Only accepting Robux and Paypal, I don't do %.
 <div class="card">
 
 <h3>
-My Discord
+Contact
 </h3>
 
+<div class="links">
 <p>
-@Furekk
+  <a href="https://www.discordapp.com/users/535840551493173258" target="_blank">
+    <i class="fa-solid fa-link"></i>Discord: Furekk
+  </a>
 </p>
+
+<p>
+  <a href="https://www.roblox.com/users/571423621/profile" target="_blank">
+    <i class="fa-solid fa-link"></i>Roblox: NotTheFurek
+  </a>
+</p>
+</div>
+
+<p id="clock"></p>
+
+<script>
+function updateClock() {
+  const now = new Date();
+
+  const time = now.toLocaleTimeString("en-US", {
+    timeZone: "Europe/Warsaw",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true
+  });
+
+  document.getElementById("clock").innerHTML =
+    'Time For Me: <b>' + time + '</b>';
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+</script>
+
 
 </div>
 

@@ -499,6 +499,19 @@ section{
 
 }
 
+.links a {
+  color:#dbeafe;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color:#FFFFFF;
+}
+
+.links i {
+  margin-right: 8px;
+}
+
 
 
 
