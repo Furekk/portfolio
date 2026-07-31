@@ -21,31 +21,33 @@ animated.forEach(element => {
 // Lightbox
 
 const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
+const lightboxImage = document.getElementById("lightbox-image");
+const closeButton = document.querySelector(".close");
 
-document.querySelectorAll(".code-gallery img").forEach(img => {
+const galleryImages = document.querySelectorAll(".code-gallery img");
 
-    img.addEventListener("click", () => {
-
+galleryImages.forEach(image => {
+    image.addEventListener("click", () => {
+        lightboxImage.src = image.src;
         lightbox.classList.add("active");
-        lightboxImg.src = img.src;
-
     });
-
 });
 
-lightbox.addEventListener("click", () => {
-
+closeButton.addEventListener("click", () => {
     lightbox.classList.remove("active");
-
+    lightboxImage.src = "";
 });
 
-document.addEventListener("keydown", (e) => {
-
-    if (e.key === "Escape") {
-
+lightbox.addEventListener("click", (event) => {
+    if(event.target === lightbox){
         lightbox.classList.remove("active");
-
+        lightboxImage.src = "";
     }
+});
 
+document.addEventListener("keydown", (event) => {
+    if(event.key === "Escape"){
+        lightbox.classList.remove("active");
+        lightboxImage.src = "";
+    }
 });
